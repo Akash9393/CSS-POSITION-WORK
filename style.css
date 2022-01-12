@@ -1,0 +1,69 @@
+*{
+	margin-top: 0;
+	padding: 0
+}
+
+.img{
+	background-image: url('v462-n-130-textureidea_1.jpg');
+	background-size: cover;
+	height: 99vh;
+	
+}
+.mainbox{border-radius: 50%;
+	height: 600px;
+	width: 600px;
+	border: 2px solid ;
+	margin: auto;
+	overflow: hidden;
+	position: relative;
+}
+
+.middle{
+	height: 50%;
+	width: 50%;
+	border-radius: 50%;
+	border: 2px solid;
+	background: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%)
+}
+
+
+.box1{
+	height: 50%;
+	width: 50%;
+	background: green;
+	float: left;
+}.box2{
+	height: 50%;
+	width: 50%;
+	background: red;
+	float: right;
+}.box3{
+	height: 50%;
+	width: 50%;
+	background: yellow;
+	float: left;
+}.box4{
+	height: 50%;
+	width: 50%;
+	background: blue;
+	float: right;
+}
+
+h1{
+	font-size: 30px;
+	text-align: center;
+	color: yellow
+}
+p{	font-size: 50px;
+	font-family: fantasy;
+	font-style: italic;
+	color: blue;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%)
+}
